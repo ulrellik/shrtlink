@@ -1,0 +1,10 @@
+.item {
+  background: $item-bg;
+  border: 1px solid $item-border;
+  margin-bottom: $space;
+  padding: $space
+}
+
+.item__message {
+  color: darken($item-bg, 30%);
+}
